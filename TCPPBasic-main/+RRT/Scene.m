@@ -137,8 +137,8 @@ classdef Scene < handle
             nn = n * 2;% A way to increse chance that we get valid samples in the directed graph
             %TODO remove
             nn=1;
-            [points4, bools, ~] = self.IRM.sample_irm_at(point, ground_level, nn);
-            iris = self.IRM.validate_basepoint(points4, bools, vec);
+            [points4, bools, iris] = self.IRM.sample_irm_at(point, ground_level, nn);
+%             iris = self.IRM.validate_basepoint(points4, bools, vec);
             [~, k] = max(iris);
             ps4 = points4(k(1:n), :);
             b=bools(k(1:n), :);
