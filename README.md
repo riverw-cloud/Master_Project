@@ -1,7 +1,7 @@
 # Master_Project
 This repository contains all relevant code and experimental results for the Master's project
 # Content
-This repository is designed to support all experimental methods and results presented in the report titled "Efficient Representation of Reachability Maps and Inverse Reachability Map Using Gaussian Processes Regression." 
+This repository is designed to support all experimental methods and results for the COMP0132 report titled "Efficient Gaussian Processes Regression Representation For Reachability Map and Inverse Reachability Map." 
 Within the repository, 
 1. The GPR file is used for representing RM (Reachability Map) and IRM (Inverse Reachability Map) using Gaussian Processes Regression. It investigates core reseach problems such as: optimal training set size, model optimisation methods, and outlier detection.
 3. The TCPPBasic-main file is used to evaluate the performance of IRM represented by GPR in the Task-consistent RRT* algorithm.
