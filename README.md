@@ -9,8 +9,8 @@ Within the repository,
 1. ```
    cd ~/Master_Project/
    ```
-2. Open the terminal
-3. ```
+
+2. ```
    cd TCPPBasic-main/+RM/data/
    pip install gdown
    gdown https://drive.google.com/drive/folders/1WnWSa3K3EYJ2r4WdKejPhwp6ngsqCY58?usp=sharing -O . --folder
@@ -18,7 +18,7 @@ Within the repository,
    ```
 
 # B. Test the GPR 
-see the GPR_script in ~/Master_Project/GPR/
+see the _GPR_script.m_ in ~/Master_Project/GPR/
 ## Test for RM
 ```
 map_flag = 0;
@@ -30,12 +30,12 @@ map_flag = 1;
 
 # C. Test the TCPP
 ## Create the task scene
-1. Open the ~/Master_Project/TCPPBasic-main/+Tasks/specific_tasks/
-2. Run HelloWorldConstant.m
+1. Find the ~/Master_Project/TCPPBasic-main/+Tasks/specific_tasks/
+2. Run _HelloWorldConstant.m_
 3. Select file: ~/Master_Project/m3dp_scenes/test_world/test_world.yaml
 ## Test the Task-consistent RRT*
-1. Open the ~/Master_Project/TCPPBasic-main/+RRT/
-2. Run entry_point.m
+1. Find the ~/Master_Project/TCPPBasic-main/+RRT/
+2. Run _entry_point.m_
 3. Select file: ~/Master_Project/m3dp_scenes/test_world/tasks/hello_world_constant.mat
    
  
